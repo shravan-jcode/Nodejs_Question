@@ -10,3 +10,19 @@ function reverseString(str){
 }
 console.log(reverseString("Hello"))
 console.log(reverseString("world"))
+
+
+
+// function reverseString(str) {
+//     let result = "";
+//     let i = str.length - 1;
+
+//     while (i >= 0) {
+//         result += str[i];
+//         i--;
+//     }
+
+//     return result;
+// }
+
+// console.log(reverseString("hello")); // "olleh"
